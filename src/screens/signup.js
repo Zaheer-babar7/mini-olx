@@ -39,7 +39,7 @@ const Signup = () => {
       })
       .catch((err) => {
         setLoading(false)
-        alert.error(err, "error");
+        alert.error(err.message);
       });
   };
 
